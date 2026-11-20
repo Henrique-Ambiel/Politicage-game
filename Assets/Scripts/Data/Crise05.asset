@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604957904ae8054b9988bf93222dfed, type: 3}
+  m_Name: Crise05
+  m_EditorClassIdentifier: Assembly-CSharp::CrisisData
+  crisisTitle: "O ataque cibern\xE9tico"
+  crisisDescription: "Um ataque cibern\xE9tico compromete sistemas p\xFAblicos e
+    amea\xE7a informa\xE7\xF5es estrat\xE9gicas. Especialistas estrangeiros oferecem
+    uma solu\xE7\xE3o imediata, enquanto t\xE9cnicos brasileiros defendem a cria\xE7\xE3o
+    de uma infraestrutura pr\xF3pria."
+  optionA:
+    optionText: Contratar empresa estrangeira
+    sovereigntyChange: -15
+    budgetChange: -5
+    popularityChange: 5
+  optionB:
+    optionText: Criar sistema nacional
+    sovereigntyChange: 10
+    budgetChange: -10
+    popularityChange: -15

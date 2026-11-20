@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604957904ae8054b9988bf93222dfed, type: 3}
+  m_Name: Crise08
+  m_EditorClassIdentifier: Assembly-CSharp::CrisisData
+  crisisTitle: "O controle da informa\xE7\xE3o"
+  crisisDescription: "Uma plataforma estrangeira concentra grande parte da comunica\xE7\xE3o
+    digital do pa\xEDs. O governo teme que informa\xE7\xF5es estrat\xE9gicas fiquem
+    vulner\xE1veis a interesses externos. Uma alternativa nacional exige investimento
+    e mudan\xE7as que podem gerar resist\xEAncia."
+  optionA:
+    optionText: Manter a plataforma estrangeira
+    sovereigntyChange: -15
+    budgetChange: 10
+    popularityChange: 5
+  optionB:
+    optionText: Desenvolver uma plataforma nacional
+    sovereigntyChange: 10
+    budgetChange: -5
+    popularityChange: 5

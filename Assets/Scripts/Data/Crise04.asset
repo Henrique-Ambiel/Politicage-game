@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604957904ae8054b9988bf93222dfed, type: 3}
+  m_Name: Crise04
+  m_EditorClassIdentifier: Assembly-CSharp::CrisisData
+  crisisTitle: "O pre\xE7o dos alimentos"
+  crisisDescription: "O pre\xE7o dos alimentos dispara ap\xF3s uma quebra na produ\xE7\xE3o
+    agr\xEDcola. Fam\xEDlias enfrentam dificuldades para comprar produtos b\xE1sicos,
+    enquanto produtores nacionais pedem apoio para recuperar suas atividades."
+  optionA:
+    optionText: Importar alimentos
+    sovereigntyChange: -5
+    budgetChange: -10
+    popularityChange: 5
+  optionB:
+    optionText: "Apoiar produ\xE7\xE3o nacional"
+    sovereigntyChange: 5
+    budgetChange: -15
+    popularityChange: -5

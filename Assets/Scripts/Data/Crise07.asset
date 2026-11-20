@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604957904ae8054b9988bf93222dfed, type: 3}
+  m_Name: Crise07
+  m_EditorClassIdentifier: Assembly-CSharp::CrisisData
+  crisisTitle: "A ind\xFAstria em decl\xEDnio"
+  crisisDescription: "A ind\xFAstria brasileira perde competitividade diante de produtos
+    estrangeiros mais baratos. Empresas nacionais amea\xE7am fechar f\xE1bricas e
+    demitir trabalhadores. O governo precisa decidir como proteger a atividade industrial."
+  optionA:
+    optionText: Facilitar a entrada de produtos importados
+    sovereigntyChange: -10
+    budgetChange: -10
+    popularityChange: 15
+  optionB:
+    optionText: "Incentivar ind\xFAstria brasileira"
+    sovereigntyChange: 10
+    budgetChange: -10
+    popularityChange: -10

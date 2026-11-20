@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604957904ae8054b9988bf93222dfed, type: 3}
+  m_Name: Crise06
+  m_EditorClassIdentifier: Assembly-CSharp::CrisisData
+  crisisTitle: O colapso da infraestrutura
+  crisisDescription: "Rodovias, ferrovias e portos apresentam sinais de deteriora\xE7\xE3o.
+    A falta de manuten\xE7\xE3o encarece o transporte e prejudica a economia. O governo
+    precisa decidir como financiar uma recupera\xE7\xE3o urgente."
+  optionA:
+    optionText: "Firmar empr\xE9stimo externo"
+    sovereigntyChange: -10
+    budgetChange: 15
+    popularityChange: -15
+  optionB:
+    optionText: "Constru\xE7\xE3o nacional"
+    sovereigntyChange: 10
+    budgetChange: 5
+    popularityChange: -5
